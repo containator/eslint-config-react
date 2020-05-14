@@ -1,0 +1,14 @@
+# Dependency directories
+node_modules/
+
+# Environment variables file
+.env
+.env.test
+
+# IntelliJ
+*.iml
+.idea
+
+# Node
+package-lock.json
+yarn.lock
