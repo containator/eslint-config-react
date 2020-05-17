@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['./rules/jsx-specific-rules', './rules/supported-rules'].map(require.resolve),
+  extends: ['./rules/jsx-specific', './rules/supported'].map(require.resolve),
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
