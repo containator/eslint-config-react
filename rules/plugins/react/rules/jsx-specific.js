@@ -60,7 +60,7 @@ module.exports = {
       'error',
       { ignoreCase: false },
     ],
-    'react/jsx-sort-props': 'off',
+    'react/jsx-sort-props': 'error',
     'react/jsx-space-before-closing': 'off',
     'react/jsx-tag-spacing': [
       'error',
