@@ -35,7 +35,8 @@
     "url": "git@github.com:containator/eslint-config-react.git"
   },
   "scripts": {
-    "lint:fix": "eslint . --ext .js --fix"
+    "lint:fix": "eslint . --ext .js --fix",
+    "prepare": "husky install"
   },
   "version": "1.0.0"
 }
