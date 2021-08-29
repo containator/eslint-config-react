@@ -39,7 +39,7 @@ module.exports = {
       unnamedComponents: 'arrow-function',
     }],
     'react/no-access-state-in-setstate': 'error',
-    'react/no-adjacent-inline-elements': ['error'],
+    'react/no-adjacent-inline-elements': 'error',
     'react/no-array-index-key': 'error',
     'react/no-children-prop': 'error',
     'react/no-danger': 'warn',
@@ -60,6 +60,7 @@ module.exports = {
     'react/no-unescaped-entities': 'error',
     'react/no-unknown-property': 'error',
     'react/no-unsafe': 'error',
+    'react/no-unstable-nested-components': 'error',
     'react/no-unused-prop-types': [
       'error',
       {
@@ -70,6 +71,7 @@ module.exports = {
     'react/no-unused-state': 'error',
     'react/no-will-update-set-state': 'error',
     'react/prefer-es6-class': ['error', 'always'],
+    'react/prefer-exact-props': 'error',
     'react/prefer-read-only-props': 'off',
     'react/prefer-stateless-function': ['error', { ignorePureComponents: true }],
     'react/prop-types': [

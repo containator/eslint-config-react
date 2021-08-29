@@ -36,7 +36,9 @@ module.exports = {
     'jsx-a11y/aria-proptypes': 'error',
     'jsx-a11y/aria-role': ['error', { ignoreNonDom: false }],
     'jsx-a11y/aria-unsupported-elements': 'error',
+    'jsx-a11y/autocomplete-valid': 'error',
     'jsx-a11y/click-events-have-key-events': 'error',
+    'jsx-a11y/control-has-associated-label': 'error',
     'jsx-a11y/heading-has-content': ['error', {
       components: [''],
     }],
