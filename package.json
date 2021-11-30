@@ -4,10 +4,10 @@
     "@containator/eslint-config-base": "^1.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.2.0",
+    "eslint": "^8.3.0",
     "eslint-plugin-import": "^2.25.3",
     "husky": "^7.0.4",
-    "lint-staged": "^12.0.2"
+    "lint-staged": "^12.1.2"
   },
   "husky": {
     "hooks": {
@@ -24,10 +24,10 @@
   "main": "index.js",
   "name": "@containator/eslint-config-react",
   "peerDependencies": {
-    "eslint": "^8.2.0",
+    "eslint": "^8.3.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-react": "^7.27.0",
+    "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0"
   },
   "repository": {
