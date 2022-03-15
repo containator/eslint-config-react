@@ -16,9 +16,12 @@ module.exports = {
         'object': [],
       },
     ],
-    'jsx-a11y/anchor-has-content': ['error', {
-      components: [],
-    }],
+    'jsx-a11y/anchor-has-content': [
+      'error',
+      {
+        components: [],
+      },
+    ],
     'jsx-a11y/anchor-is-valid': [
       'error',
       {
@@ -27,21 +30,35 @@ module.exports = {
           'invalidHref',
           'preferButton',
         ],
-        components: ['Link'],
-        specialLink: ['to'],
+        components: [
+          'Link',
+        ],
+        specialLink: [
+          'to',
+        ],
       },
     ],
     'jsx-a11y/aria-activedescendant-has-tabindex': 'error',
     'jsx-a11y/aria-props': 'error',
     'jsx-a11y/aria-proptypes': 'error',
-    'jsx-a11y/aria-role': ['error', { ignoreNonDom: false }],
+    'jsx-a11y/aria-role': [
+      'error',
+      {
+        ignoreNonDom: false,
+      },
+    ],
     'jsx-a11y/aria-unsupported-elements': 'error',
     'jsx-a11y/autocomplete-valid': 'error',
     'jsx-a11y/click-events-have-key-events': 'error',
     'jsx-a11y/control-has-associated-label': 'error',
-    'jsx-a11y/heading-has-content': ['error', {
-      components: [''],
-    }],
+    'jsx-a11y/heading-has-content': [
+      'error',
+      {
+        components: [
+          '',
+        ],
+      },
+    ],
     'jsx-a11y/html-has-lang': 'error',
     'jsx-a11y/iframe-has-title': 'error',
     'jsx-a11y/img-redundant-alt': 'error',
@@ -58,17 +75,28 @@ module.exports = {
     ],
     'jsx-a11y/mouse-events-have-key-events': 'error',
     'jsx-a11y/no-access-key': 'error',
-    'jsx-a11y/no-autofocus': ['error', { ignoreNonDOM: true }],
+    'jsx-a11y/no-autofocus': [
+      'error',
+      {
+        ignoreNonDOM: true,
+      },
+    ],
     'jsx-a11y/no-distracting-elements': [
       'error',
       {
-        elements: ['marquee', 'blink'],
+        elements: [
+          'marquee',
+          'blink',
+        ],
       },
     ],
     'jsx-a11y/no-interactive-element-to-noninteractive-role': [
       'error',
       {
-        tr: ['none', 'presentation'],
+        tr: [
+          'none',
+          'presentation',
+        ],
       },
     ],
     'jsx-a11y/no-noninteractive-element-interactions': [
@@ -103,8 +131,12 @@ module.exports = {
           'tree',
           'treegrid',
         ],
-        table: ['grid'],
-        td: ['gridcell'],
+        table: [
+          'grid',
+        ],
+        td: [
+          'gridcell',
+        ],
         ul: [
           'listbox',
           'menu',
@@ -119,7 +151,9 @@ module.exports = {
     'jsx-a11y/no-noninteractive-tabindex': [
       'error',
       {
-        roles: ['tabpanel'],
+        roles: [
+          'tabpanel',
+        ],
         tags: [],
       },
     ],

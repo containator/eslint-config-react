@@ -1,6 +1,11 @@
 module.exports = {
   rules: {
-    'react/boolean-prop-naming': ['error', { validateNested: true }],
+    'react/boolean-prop-naming': [
+      'error',
+      {
+        validateNested: true,
+      },
+    ],
     'react/button-has-type': [
       'error',
       {
@@ -9,19 +14,46 @@ module.exports = {
         submit: true,
       },
     ],
-    'react/default-props-match-prop-types': ['error', { allowRequiredDefaults: false }],
-    'react/destructuring-assignment': ['error', 'always'],
-    'react/display-name': ['off', { ignoreTranspilerName: false }],
-    'react/forbid-component-props': ['off', {
-      forbid: [],
-    }],
-    'react/forbid-dom-props': ['off', {
-      forbid: [],
-    }],
-    'react/forbid-elements': ['off', {
-      forbid: [],
-    }],
-    'react/forbid-foreign-prop-types': ['warn', { allowInPropTypes: true }],
+    'react/default-props-match-prop-types': [
+      'error',
+      {
+        allowRequiredDefaults: false,
+      },
+    ],
+    'react/destructuring-assignment': [
+      'error',
+      'always',
+    ],
+    'react/display-name': [
+      'off',
+      {
+        ignoreTranspilerName: false,
+      },
+    ],
+    'react/forbid-component-props': [
+      'off',
+      {
+        forbid: [],
+      },
+    ],
+    'react/forbid-dom-props': [
+      'off',
+      {
+        forbid: [],
+      },
+    ],
+    'react/forbid-elements': [
+      'off',
+      {
+        forbid: [],
+      },
+    ],
+    'react/forbid-foreign-prop-types': [
+      'warn',
+      {
+        allowInPropTypes: true,
+      },
+    ],
     'react/forbid-prop-types': [
       'error',
       {
@@ -34,13 +66,19 @@ module.exports = {
         ],
       },
     ],
-    'react/function-component-definition': ['error', {
-      namedComponents: 'arrow-function',
-      unnamedComponents: 'arrow-function',
-    }],
+    'react/function-component-definition': [
+      'error',
+      {
+        namedComponents: 'arrow-function',
+        unnamedComponents: 'arrow-function',
+      },
+    ],
+    'react/hook-use-state': 'error',
+    'react/iframe-missing-sandbox': 'error',
     'react/no-access-state-in-setstate': 'error',
     'react/no-adjacent-inline-elements': 'error',
     'react/no-array-index-key': 'error',
+    'react/no-arrow-function-lifecycle': 'error',
     'react/no-children-prop': 'error',
     'react/no-danger': 'warn',
     'react/no-danger-with-children': 'error',
@@ -49,8 +87,15 @@ module.exports = {
     'react/no-did-update-set-state': 'error',
     'react/no-direct-mutation-state': 'error',
     'react/no-find-dom-node': 'error',
+    'react/no-invalid-html-attribute': 'error',
     'react/no-is-mounted': 'error',
-    'react/no-multi-comp': ['error', { ignoreStateless: true }],
+    'react/no-multi-comp': [
+      'error',
+      {
+        ignoreStateless: true,
+      },
+    ],
+    'react/no-namespace': 'error',
     'react/no-redundant-should-component-update': 'error',
     'react/no-render-return-value': 'error',
     'react/no-set-state': 'off',
@@ -61,6 +106,7 @@ module.exports = {
     'react/no-unknown-property': 'error',
     'react/no-unsafe': 'error',
     'react/no-unstable-nested-components': 'error',
+    'react/no-unused-class-component-methods': 'error',
     'react/no-unused-prop-types': [
       'error',
       {
@@ -70,10 +116,18 @@ module.exports = {
     ],
     'react/no-unused-state': 'error',
     'react/no-will-update-set-state': 'error',
-    'react/prefer-es6-class': ['error', 'always'],
+    'react/prefer-es6-class': [
+      'error',
+      'always',
+    ],
     'react/prefer-exact-props': 'error',
     'react/prefer-read-only-props': 'off',
-    'react/prefer-stateless-function': ['error', { ignorePureComponents: true }],
+    'react/prefer-stateless-function': [
+      'error',
+      {
+        ignorePureComponents: true,
+      },
+    ],
     'react/prop-types': [
       'error',
       {
@@ -85,11 +139,16 @@ module.exports = {
     'react/react-in-jsx-scope': 'error',
     'react/require-default-props': [
       'error',
-      { forbidDefaultForRequired: true },
+      {
+        forbidDefaultForRequired: true,
+      },
     ],
-    'react/require-optimization': ['off', {
-      allowDecorators: [],
-    }],
+    'react/require-optimization': [
+      'off',
+      {
+        allowDecorators: [],
+      },
+    ],
     'react/require-render-return': 'error',
     'react/self-closing-comp': 'error',
     'react/sort-comp': [
@@ -117,7 +176,10 @@ module.exports = {
             'componentDidUpdate',
             'componentWillUnmount',
           ],
-          rendering: ['/^render.+$/', 'render'],
+          rendering: [
+            '/^render.+$/',
+            'render',
+          ],
         },
         order: [
           'static-methods',
@@ -134,7 +196,10 @@ module.exports = {
       },
     ],
     'react/sort-prop-types': 'off',
-    'react/state-in-constructor': ['error', 'always'],
+    'react/state-in-constructor': [
+      'error',
+      'always',
+    ],
     'react/static-property-placement': 'off',
     'react/style-prop-object': 'error',
     'react/void-dom-elements-no-children': 'error',
