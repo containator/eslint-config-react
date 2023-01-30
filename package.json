@@ -4,7 +4,7 @@
     "@containator/eslint-config-base": "^1.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.32.0",
+    "eslint": "^8.33.0",
     "eslint-plugin-import": "^2.27.5",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0"
